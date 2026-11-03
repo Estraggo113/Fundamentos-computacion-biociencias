@@ -1,0 +1,100 @@
+    1  ls
+    2  awp
+    3  dwp
+    4  pwd
+    5  nano
+    6  ls
+    7  nano sec_.fasta 
+    8  nano
+    9  nano sec_.fasta 
+   10  nano
+   11  ls
+   12  nano sec._fastq 
+   13  pwd
+   14  nano
+   15  clean
+   16  clear
+   17  cat>sec_DNA_cat.fasta
+   18  ls
+   19  nano sec_DNA_cat.fasta
+   20  ls-l
+   21  ls
+   22  pwd
+   23  clear
+   24  ls
+   25  cd tema2
+   26  ls
+   27  cd pacifici2013_data.csv
+   28  less Pacifici2013_data.csv
+   29  $ head -n 1 Pacifici2013_data.csv | cut -d ";" -f 1
+   30  ls-l
+   31  head -n 1-10 Pacifici2013_data.csv | cut -d ";" -f 1-10
+   32  head -n clear10 Pacifici2013_data.csv | cut -d ";" -f 10
+   33  clear
+   34  head -n 1 Pacifici2013_data.csv | cut-d ";" -f 1-4
+   35  cut -d ";" -f 2 Pacifici_data.csv | head -n 5
+   36  cut -d ";" -f 2 Pacifici201i_data.csv | head -n 5
+   37  cut -d ";" -f 2 Pacifici2013__data.csv | head -n 5
+   38  cut -d ";" -f 2 Pacifici2013_data.csv | head -n 5
+   39  cut -d ";" -f 2,8 Pacifici2013_csv | head -n 3
+   40  cut -d ";" -f 2,8 Pacifici2013_data.csv | head -n 3
+   41  cut -d ";" -f 2 PAcifici2013_data.csv | sort | uniq
+   42  cut -d ";" -f 2 Pacifici2013_data.csv | sort | uniq
+   43  echo "aaaaanbbbb" | tr "a" "b"
+   44  echo "3759871308713569732547915" | tr 1-5 0
+   45  echo "aaaaaaggggggagaaaffaa" | tr -a g
+   46  echo "aaaaaaggggggagaaaffaa" | tr -d a 
+   47  cp Pacifici2013_data.csv Pacifici2013_data.copia.csv
+   48  ls
+   49  cd Pacifici2013_data.copia.csv
+   50  pwd
+   51  clear
+   52  cp Pacifici2013_data.csv
+   53  cp Pacifici2013_data.csv Prueba_Pacifici
+   54  cd Prueba_Pacifici
+   55  head Prueba_Pacifici
+   56  cd
+   57  cd ~
+   58  mkdir proyecto_biotec
+   59  cd proyecto_biotec
+   60  mkdir -p datos_crudos datos_procesados scripts resultados documentacion
+   61  cd /home/fcb_alumno06
+   62  ls -R home/fcb_alumno06/proyecto_biotec
+   63  ls -R /home/fcb_alumno06/proyecto_biotec
+   64  touch ~/proyecto_biotec/mis_resultados_finales.txt
+   65* finales.txt
+   66  touch ~/proyecto_biotec/mis\ resultados\ finales.txt
+   67  rm ~/proyecto_biotec/resultados/mis\resultados\finales.txt
+   68  rm ~/proyecto_biotec/resultados/mis\ resultados\ finales.txt
+   69  ls -l ~proyecto_biotec/resultados
+   70  ls -l ~/proyecto_biotec/resultados
+   71  touch ~/proyecto_biotec/resultados
+   72  ls -l ~/proyecto_biotec/resultados
+   73  ls -l ~/proyecto_biotec/resultados/mis\resultados\finales.txt
+   74  ls -l ~/proyecto_biotecs/mis\resultados\finales.txt
+   75  touch ~/proyecto_biotec/resultados/mis_resultados_finales.txt
+   76  touch ~7proyecto_biotec/resultados/mis\ resultados \finales.txt
+   77  touch ~/proyecto_biotec/resultados/mis\ resultados \finales.txt
+   78  rm ~/proyecto_biotec/resultados/mis\ resultados\ finales.txt
+   79  rm ~/proyecto_biotec/resultados/mis\ resultados
+   80  rm ~/proyecto_biotec/resultados/mis\ resultados\ finales.txt
+   81  touch ~/proyecto_biotec/resultados/"mis resultados finales.txt"
+   82  ls - ~proyecto_biotec/resultados
+   83  ls -l ~proyecto_biotec/resultados
+   84  ls -l ~/proyecto_biotec/resultados
+   85  rm ~/proyecto_biotec/resultados/"mis resultados finales.txt"
+   86  ls -l ~/proyecto_biotec
+   87  ls -l ~/proyecto_biotec/resultados
+   88  rm ~/proyecto_biotec/"mis resultados finales.txt"
+   89  rm ~/proyecto_biotec/mis_resultados_finales.txt
+   90  clear
+   91  cat > ~/proyecto_biotec/documentacion/conceptos_tema1.txt<<´FIN´
+El kernel es el nucleo del sistema operativo. Gestiona los recursos del ordenador como la memoria, el procesador, y permite que los programas se comuniquen con el hardware
+La shell interpreta los comandos que escribe el usuario y los envia al sistema. La terminal es la aplicacion o ventana donde escribimos esos comandos y vemos sus resultados.
+Unix y Linux son utiles en bioinformatica porque permiten trabajar con archivos, automatizar tareas y analizar grandes cantidades de datos mediante comandos y programas especializados.
+FIN
+
+´FIN´
+
+   92  nano ~/proyecto_biotec/documentacion/conceptos_tema1.txt
+   93  history > ~/proyecto_biotec/scripts/historial_comandosB.txt

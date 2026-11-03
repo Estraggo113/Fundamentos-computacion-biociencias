@@ -1,0 +1,6 @@
+El kernel es el nucleo del sistema operativo. Gestiona los recursos del ordenador como la memoria, el procesador, y permite que los programas se comuniquen con el hardware
+La shell interpreta los comandos que escribe el usuario y los envia al sistema. La terminal es la aplicacion o ventana donde escribimos esos comandos y vemos sus resultados.
+Unix y Linux son utiles en bioinformatica porque permiten trabajar con archivos, automatizar tareas y analizar grandes cantidades de datos mediante comandos y programas especializados.
+
+
+
